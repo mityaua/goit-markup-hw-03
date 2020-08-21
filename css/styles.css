@@ -25,6 +25,8 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -32,10 +34,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
-  outline: 2px solid tomato;
 }
 
-/* Хедер */
+/* Header */
+.header {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 
 /* Логотип в хедере */
 
@@ -91,15 +96,21 @@ body {
 /* Секция Hero */
 
 .hero {
+  margin-bottom: 94px;
+
   background-color: var(--second-bg-color);
   color: var(--primary-bg-color);
+
+  text-align: center;
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -132,7 +143,14 @@ body {
 
 /* Преимущества */
 
+.features {
+  margin-bottom: 94px;
+}
+
 .features-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--second-text-color);
 
   font-weight: 700;
@@ -145,6 +163,9 @@ body {
 
 .photos-title,
 .team-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--second-text-color);
 
   font-weight: 700;
@@ -165,13 +186,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* Страница портфолио */

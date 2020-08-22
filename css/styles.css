@@ -33,14 +33,16 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1170px;
 }
 
 /* Header */
 .header {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  border: 1px solid tomato;
+  margin-bottom: 94px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 /* Логотип в хедере */
@@ -103,8 +105,6 @@ body {
   color: var(--primary-bg-color);
 
   text-align: center;
-
-  border: 1px solid tomato;
 }
 
 .hero-title {
@@ -148,8 +148,6 @@ body {
 
 .features {
   margin-bottom: 94px;
-
-  border: 1px solid tomato;
 }
 
 .features-title {
@@ -171,7 +169,6 @@ body {
 
 .photos {
   margin-bottom: 94px;
-  border: 1px solid tomato;
 }
 
 /* Тайтлы Чем мы занимаемся + Наша команда */
@@ -196,8 +193,6 @@ body {
   padding-bottom: 94px;
 
   background-color: var(--additional-background-color);
-
-  border: 1px solid tomato;
 }
 
 .team-photo {
@@ -222,13 +217,17 @@ body {
 
   font-size: 16px;
   line-height: 1.18;
-
-  border: 1px solid tomato;
   /* text-align: center; */
 }
 
 /* Страница портфолио */
-/* Переключатели */
+
+/* Кнопки-фильтры */
+
+.filters {
+  margin-bottom: 50px;
+  text-align: center;
+}
 
 .filters .item {
   display: inline-block;
@@ -258,8 +257,14 @@ body {
 }
 
 /* Сетка портфолио */
+.portfolio-photo {
+  margin-bottom: 20px;
+}
 
 .portfolio-title {
+  margin-top: 0;
+  margin-bottom: 4px;
+
   color: var(--second-text-color);
 
   font-weight: 700;
@@ -269,6 +274,9 @@ body {
 }
 
 .portfolio-text {
+  margin-top: 0;
+  margin-bottom: 20px;
+
   color: var(--primary-text-color);
 
   font-size: 16px;

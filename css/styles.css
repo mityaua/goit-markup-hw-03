@@ -171,8 +171,14 @@ body {
   margin-bottom: 0;
 }
 
+/* Секция Чем мы занимаемся  */
+
 .photos {
   margin-bottom: 94px;
+}
+
+.photos-item {
+  display: block;
 }
 
 /* Тайтлы Чем мы занимаемся + Наша команда */

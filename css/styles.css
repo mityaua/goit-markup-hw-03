@@ -40,7 +40,6 @@ body {
 
 /* Header */
 .header {
-  margin-bottom: 94px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -100,6 +99,9 @@ body {
 
 .hero {
   margin-bottom: 94px;
+  /* Паддинги будут удалены, оставлены для визуализации */
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   background-color: var(--second-bg-color);
   color: var(--primary-bg-color);
@@ -137,6 +139,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 
 .button-order:hover,

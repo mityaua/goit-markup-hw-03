@@ -42,7 +42,10 @@ body {
 
 .main-nav {
   display: flex;
-  border: 1px solid tomato;
+}
+
+.navbar {
+  display: flex;
 }
 
 /* Логотип в хедере */

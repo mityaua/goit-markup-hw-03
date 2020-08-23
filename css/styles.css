@@ -37,7 +37,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1170px;
+  width: 1200px;
 }
 
 /* Header */
@@ -189,6 +189,18 @@ body {
   margin-bottom: 94px;
 }
 
+.features-list {
+  display: flex;
+}
+
+.features .item {
+  width: 270px;
+}
+
+.features .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .features-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -272,7 +284,7 @@ body {
 .filters {
   margin-top: 94px;
   margin-bottom: 50px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .filters-button {
@@ -305,6 +317,7 @@ body {
 }
 
 /* Сетка портфолио */
+
 .portfolio-photo {
   margin-bottom: 20px;
 }

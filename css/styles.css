@@ -24,6 +24,8 @@ body {
   line-height: 1.71;
 }
 
+/* Утилиты */
+
 .list {
   padding: 0;
   margin: 0;
@@ -40,17 +42,25 @@ body {
 
 /* Header */
 
+.header {
+  box-shadow: inset 0 -1px 0 #ececec;
+}
+
 .main-nav {
   display: flex;
+  align-items: center;
 }
 
 .navbar {
   display: flex;
+  align-items: center;
 }
 
 /* Логотип в хедере */
 
 .logo {
+  margin-right: 93px;
+
   color: var(--second-text-color);
 
   font-family: Raleway, sans-serif;
@@ -102,6 +112,7 @@ body {
 
 .nav-contacts {
   display: flex;
+  margin-left: auto;
 }
 
 .nav-contacts .item:not(:last-child) {
@@ -160,8 +171,8 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
-  text-align: center;
+  /* align-items: center; */
+  /* text-align: center; */
   letter-spacing: 0.06em;
 
   cursor: pointer;
@@ -259,6 +270,7 @@ body {
 /* Кнопки-фильтры */
 
 .filters {
+  margin-top: 94px;
   margin-bottom: 50px;
   text-align: center;
 }

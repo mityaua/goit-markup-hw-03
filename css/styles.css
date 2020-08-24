@@ -132,7 +132,6 @@ body {
 /* Секция Hero */
 
 .hero {
-  margin-bottom: 94px;
   /* Паддинги будут удалены, оставлены для визуализации */
   padding-top: 200px;
   padding-bottom: 200px;
@@ -186,7 +185,8 @@ body {
 /* Преимущества */
 
 .features {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-list {
@@ -221,7 +221,7 @@ body {
 /* Секция Чем мы занимаемся  */
 
 .photos {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .photos-list {
@@ -257,6 +257,13 @@ body {
 
 /* Секция с фотографиями команды */
 
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  background-color: var(--additional-background-color);
+}
+
 .team-list {
   display: flex;
 }
@@ -272,13 +279,6 @@ body {
 
 .team-item:not(:last-child) {
   margin-right: 30px;
-}
-
-.team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
-  background-color: var(--additional-background-color);
 }
 
 .team-photo {
@@ -314,8 +314,8 @@ body {
   display: flex;
   justify-content: center;
 
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
   /* text-align: center; */
 }
 
@@ -357,7 +357,7 @@ body {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-item {

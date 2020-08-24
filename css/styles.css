@@ -194,7 +194,7 @@ body {
 }
 
 .features .item {
-  width: 270px;
+  width: calc((100% - 90px) / 4);
 }
 
 .features .item:not(:last-child) {
@@ -224,8 +224,12 @@ body {
   margin-bottom: 94px;
 }
 
-.photos .list {
+.photos-list {
   display: flex;
+}
+
+.photos-item {
+  width: calc((100% - 60px) / 3);
 }
 
 .photos-item:not(:last-child) {
@@ -258,7 +262,7 @@ body {
 }
 
 .team-item {
-  width: 270px;
+  width: calc((100% - 90px) / 4);
 
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -422,6 +426,9 @@ body {
 /* Лого в футере */
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
+
   color: var(--primary-bg-color);
 
   font-family: Raleway, sans-serif;
@@ -439,12 +446,15 @@ body {
 
 .footer-adress {
   display: flex;
+  flex-direction: column;
 
   font-style: normal;
   font-size: 14px;
 }
 
 .footer-adress .link {
+  padding-top: 9px;
+
   color: rgba(255, 255, 255, 0.6);
 
   text-decoration: none;

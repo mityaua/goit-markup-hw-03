@@ -307,9 +307,16 @@ body {
 /* Кнопки-фильтры */
 
 .filters {
+  display: flex;
+  justify-content: center;
+
   margin-top: 94px;
   margin-bottom: 50px;
   /* text-align: center; */
+}
+
+.filters-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .filters-button {
@@ -343,13 +350,40 @@ body {
 
 /* Сетка портфолио */
 
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
+
+.portfolio-item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+
+.portfolio-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.portfolio-item:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+
 .portfolio-photo {
+  display: block;
   margin-bottom: 20px;
 }
 
 .portfolio-title {
   margin-top: 0;
   margin-bottom: 4px;
+  margin-right: 24px;
+  margin-left: 24px;
 
   color: var(--second-text-color);
 
@@ -362,6 +396,8 @@ body {
 .portfolio-text {
   margin-top: 0;
   margin-bottom: 20px;
+  margin-right: 24px;
+  margin-left: 24px;
 
   color: var(--primary-text-color);
 

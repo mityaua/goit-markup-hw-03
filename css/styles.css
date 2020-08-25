@@ -40,6 +40,12 @@ body {
   width: 1200px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Header */
 
 .header {
@@ -236,9 +242,9 @@ body {
   margin-right: 30px;
 }
 
-.photos-img {
+/* .photos-img {
   display: block;
-}
+} */
 
 /* Тайтлы Чем мы занимаемся + Наша команда */
 
@@ -363,10 +369,6 @@ body {
 .portfolio-item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
-}
-
-.portfolio-item {
-  margin-right: 30px;
   margin-bottom: 30px;
 }
 
@@ -378,16 +380,32 @@ body {
   margin-bottom: 0px;
 }
 
-.portfolio-photo {
+/* .portfolio-photo {
   display: block;
-  margin-bottom: 20px;
+} */
+
+.portfolio-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
 }
 
 .portfolio-title {
   margin-top: 0;
   margin-bottom: 4px;
-  margin-right: 24px;
-  margin-left: 24px;
 
   color: var(--second-text-color);
 
@@ -398,10 +416,7 @@ body {
 }
 
 .portfolio-text {
-  margin-top: 0;
-  margin-bottom: 20px;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin: 0;
 
   color: var(--primary-text-color);
 

@@ -461,7 +461,6 @@ img {
 .footer-adress {
   display: flex;
   flex-direction: column;
-  width: 231px;
 
   font-style: normal;
   font-size: 14px;

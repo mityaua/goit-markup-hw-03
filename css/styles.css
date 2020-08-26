@@ -315,6 +315,11 @@ img {
 
 /* Страница портфолио */
 
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Кнопки-фильтры */
 
 .filters {

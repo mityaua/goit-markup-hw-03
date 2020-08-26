@@ -192,7 +192,7 @@ img {
 
 .features {
   padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .features-list {
@@ -227,6 +227,7 @@ img {
 /* Секция Чем мы занимаемся  */
 
 .photos {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -467,6 +468,7 @@ img {
 .footer-adress {
   display: flex;
   flex-direction: column;
+  width: 231px;
 
   font-style: normal;
   font-size: 14px;

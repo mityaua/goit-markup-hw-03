@@ -243,10 +243,6 @@ img {
   margin-right: 30px;
 }
 
-/* .photos-img {
-  display: block;
-} */
-
 /* Тайтлы Чем мы занимаемся + Наша команда */
 
 .photos-title,
@@ -326,8 +322,6 @@ img {
 .filters {
   display: flex;
   justify-content: center;
-
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -369,7 +363,6 @@ img {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .portfolio-item {

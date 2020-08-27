@@ -385,8 +385,14 @@ img {
   margin-bottom: 0px;
 }
 
-/* .portfolio-photo {
-  display: block;
+.portfolio-link {
+  text-decoration: none;
+}
+
+/* Пустой div для будущего дополнения картинки 
+
+.portfolio-image {
+
 } */
 
 .portfolio-content {
@@ -427,10 +433,6 @@ img {
 
   font-size: 16px;
   line-height: 1.87;
-}
-
-.portfolio-link {
-  text-decoration: none;
 }
 
 /* Footer */

@@ -443,6 +443,10 @@ img {
   color: var(--primary-bg-color);
 }
 
+.address {
+  width: calc((100% - 30px * 2) / 4);
+}
+
 /* Лого в футере */
 
 .footer-logo {

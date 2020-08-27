@@ -148,6 +148,12 @@ img {
   text-align: center;
 }
 
+.hero-content {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 696px;
+}
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
